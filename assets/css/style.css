@@ -1,0 +1,49 @@
+#header {
+    background-color: grey;
+    width: 400px;
+    height: auto;
+}
+
+#instructors {
+    background-color: skyblue;
+    width: 500px;
+    height: auto;
+}
+
+#randomNumber {
+    background-color: green;
+    width: 150px;
+    height: 150px;
+}
+
+.winBlock {
+    background-color: orange;
+    width: 150px;
+    height: 75px;
+
+}
+
+.crystal-image {
+    width: 150px;
+    height: 150px;
+    
+
+}
+
+#totalScore {
+    background-color:pink;
+    height: 25px;
+    width: 350px;
+}
+
+#myScore {
+    background-color: greenyellow;
+    width: 250px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+body {
+    background-image: url("./../images/milky-way-2695569_960_720.jpg")
+    }
+}
