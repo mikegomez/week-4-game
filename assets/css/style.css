@@ -1,49 +1,118 @@
+h1 {
+  text-align: center;
+}
+
+p {
+    font-size: 18px
+}
+
 #header {
-    background-color: grey;
-    width: 400px;
+    background-color: rgb(128, 214, 57);
     height: auto;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
 }
 
 #instructors {
     background-color: skyblue;
-    width: 500px;
     height: auto;
+    margin: 20px auto;
+    width: 50%;
+    border: 3px solid rgb(130, 136, 130);
+    padding: 10px;
 }
 
 #randomNumber {
-    background-color: green;
-    width: 150px;
-    height: 150px;
+    background-color: rgb(112, 158, 201);
+    width: 215px;
+    height: 155px;
+    display: flex;
+    
+    flex-direction:column;
+    -moz-box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4);
+    -webkit-box-shadow: inset 2px 2px 2px rgba(175, 226, 79, 0.4), inset -2px -2px 2px rgba(0, 0, 0, .4);
+    box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(109, 187, 57, 0.4);
+}
+
+#number-to-guess {
+    margin: auto;
+    font-size: 62px;
+}
+
+#rNum {
+    text-align: center;
+}
+
+#tScore {
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+}
+#one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .winBlock {
-    background-color: orange;
-    width: 150px;
-    height: 75px;
-
+    background-color: rgb(179, 140, 70);
+    width: 215px;
+    height: 155px;
+    flex-direction:column;
+    -moz-box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4);
+    -webkit-box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4);
+    box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4);
 }
 
+h4 {
+    font-size: 26px;
+    margin: 15px
+}
+
+
+#crystals {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px auto;
+}
+
+
 .crystal-image {
+    
     width: 150px;
     height: 150px;
+    margin: 10px 10px 10px 0px
     
 
 }
 
 #totalScore {
     background-color:pink;
-    height: 25px;
+    height: 55px;
     width: 350px;
+    margin: auto;
+    
 }
 
 #myScore {
     background-color: greenyellow;
     width: 250px;
-    height: 100px;
-    margin-top: 10px;
+    height: 125px;
+    margin: auto;
 }
 
-body {
-    background-image: url("./../images/milky-way-2695569_960_720.jpg")
+html { 
+        background: url("./../images/milky-way-2695569_960_720.jpg") no-repeat center center fixed ; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
-}
+
+    #finalScore {
+        font-size: 62px;
+        text-align: center;
+        line-height: 100px;
+    }
